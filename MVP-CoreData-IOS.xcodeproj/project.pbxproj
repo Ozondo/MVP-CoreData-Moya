@@ -17,6 +17,7 @@
 		1A9ACBB32B5EA47800D701D2 /* OnePagePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9ACBB22B5EA47800D701D2 /* OnePagePresenter.swift */; };
 		1A9ACBB52B5EA49200D701D2 /* OnePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9ACBB42B5EA49200D701D2 /* OnePageView.swift */; };
 		1A9ACBB72B5EA57200D701D2 /* OnePageIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9ACBB62B5EA57200D701D2 /* OnePageIO.swift */; };
+		1AEB9A492B5FCBEC008D343B /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEB9A482B5FCBEC008D343B /* TabBar.swift */; };
 		1AF0B8AB2B5EB21000B32894 /* OnePageResponse .swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF0B8AA2B5EB21000B32894 /* OnePageResponse .swift */; };
 		1AF0B8AD2B5EB22700B32894 /* OnePageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF0B8AC2B5EB22700B32894 /* OnePageService.swift */; };
 		1AF0B8AF2B5EB24300B32894 /* OnePageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF0B8AE2B5EB24300B32894 /* OnePageModel.swift */; };
@@ -37,6 +38,7 @@
 		1A9ACBB22B5EA47800D701D2 /* OnePagePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePagePresenter.swift; sourceTree = "<group>"; };
 		1A9ACBB42B5EA49200D701D2 /* OnePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePageView.swift; sourceTree = "<group>"; };
 		1A9ACBB62B5EA57200D701D2 /* OnePageIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePageIO.swift; sourceTree = "<group>"; };
+		1AEB9A482B5FCBEC008D343B /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		1AF0B8AA2B5EB21000B32894 /* OnePageResponse .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OnePageResponse .swift"; sourceTree = "<group>"; };
 		1AF0B8AC2B5EB22700B32894 /* OnePageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePageService.swift; sourceTree = "<group>"; };
 		1AF0B8AE2B5EB24300B32894 /* OnePageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePageModel.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 		1A060B362B5DA4EE00A96755 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				1AEB9A472B5FCBBC008D343B /* TabBar */,
 				1A060B4C2B5DAD0A00A96755 /* CoreDataPage */,
 				1A060B422B5DA89500A96755 /* OneButtonPage */,
 			);
@@ -173,6 +176,14 @@
 				1A060B472B5DA8EB00A96755 /* OnePageButtonBuilder.swift */,
 			);
 			path = Builder;
+			sourceTree = "<group>";
+		};
+		1AEB9A472B5FCBBC008D343B /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				1AEB9A482B5FCBEC008D343B /* TabBar.swift */,
+			);
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 		22815419CB02605B20C423B7 /* Pods */ = {
@@ -309,6 +320,7 @@
 				1A9ACBB32B5EA47800D701D2 /* OnePagePresenter.swift in Sources */,
 				1A060B4E2B5DAD1D00A96755 /* CoreDataViewController.swift in Sources */,
 				1A060B482B5DA8EB00A96755 /* OnePageButtonBuilder.swift in Sources */,
+				1AEB9A492B5FCBEC008D343B /* TabBar.swift in Sources */,
 				1A060B502B5DAD3400A96755 /* OnePageButtonViewController.swift in Sources */,
 				1AF0B8AF2B5EB24300B32894 /* OnePageModel.swift in Sources */,
 				1A060B232B5DA4D100A96755 /* AppDelegate.swift in Sources */,
