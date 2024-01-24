@@ -19,8 +19,9 @@ final class OnePageView: UIView{
     //MARK: - private properties
     private let chuckNorrisPhrase: UILabel = {
         let text = UILabel()
+        text.text = "Нажмите на конпку"
         text.textAlignment = .center
-        
+        text.numberOfLines = 0
         return text
     }()
     
@@ -29,8 +30,6 @@ final class OnePageView: UIView{
         button.setTitle("click", for: .normal)
         button.setTitleColor(.white, for: .normal)
         button.backgroundColor = .systemBlue
-        
-
         
         return button
     }()
