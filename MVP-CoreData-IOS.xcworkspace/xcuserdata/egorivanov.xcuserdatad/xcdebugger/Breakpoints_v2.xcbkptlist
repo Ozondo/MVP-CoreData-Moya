@@ -20,53 +20,5 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "C1D6A052-C1C6-4794-A19D-F38543CE86BC"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MVP-CoreData-IOS/Modules/CoreDataPageList/Service/CoreDataService.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
-            landmarkName = "loadItems(completion:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "C1D6A052-C1C6-4794-A19D-F38543CE86BC - cc7f5bfb4bebd61f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;Moya.Response, Moya.MoyaError&gt;) -&gt; () in MVP_CoreData_IOS.CoreDataNetworkServiceImpl.loadItems(completion: (Swift.Result&lt;Swift.Array&lt;MVP_CoreData_IOS.CoreDataModel&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "MVP-CoreData-IOS"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/egorivanov/Documents/SWIFT/MVP-CoreData-IOS/MVP-CoreData-IOS/Modules/CoreDataPageList/Service/CoreDataService.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "54"
-                  endingLineNumber = "54"
-                  offsetFromSymbolStart = "276">
-               </Location>
-               <Location
-                  uuid = "C1D6A052-C1C6-4794-A19D-F38543CE86BC - ef12c19509b09616"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;Moya.Response, Moya.MoyaError&gt;) -&gt; () in MVP_CoreData_IOS.CoreDataNetworkServiceImpl.loadItems(completion: (Swift.Result&lt;MVP_CoreData_IOS.CoreDataModel, Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "MVP-CoreData-IOS"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/egorivanov/Documents/SWIFT/MVP-CoreData-IOS/MVP-CoreData-IOS/Modules/CoreDataPageList/Service/CoreDataService.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "54"
-                  endingLineNumber = "54"
-                  offsetFromSymbolStart = "484">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

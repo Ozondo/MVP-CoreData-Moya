@@ -84,10 +84,4 @@ extension CoreDataListView: UITableViewDelegate, UITableViewDataSource {
     
 }
 
-extension CoreDataListView {
-    func setItems(itemsFromNetwork: String) {
-        self.info = itemsFromNetwork
-        coreDataListTableView.reloadData()
-    }
-}
 

@@ -11,7 +11,7 @@ import UIKit
 
 struct CoreDataListBuilder {
     func build() -> UIViewController {
-        let presenter = CoreDataPageListPresenter(service: CoreDataNetworkServiceImpl())
+        let presenter = CoreDataPageListPresenter()
         
         let view = CoreDataListViewController(presenter: presenter)
         

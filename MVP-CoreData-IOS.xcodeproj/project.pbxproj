@@ -204,8 +204,6 @@
 		1A689FC52B613C2600DCD056 /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				1A689FC12B61293100DCD056 /* CoreDataModel.swift */,
-				1A689FBF2B61280400DCD056 /* CoreDataService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -248,6 +246,8 @@
 			isa = PBXGroup;
 			children = (
 				1AEB9A4B2B5FE80F008D343B /* Model.xcdatamodeld */,
+				1A689FBF2B61280400DCD056 /* CoreDataService.swift */,
+				1A689FC12B61293100DCD056 /* CoreDataModel.swift */,
 				1A689FBD2B6120B100DCD056 /* CoreDataStack.swift */,
 			);
 			path = CoreData;

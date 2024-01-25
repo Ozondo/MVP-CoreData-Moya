@@ -9,7 +9,6 @@ import Foundation
 
 
 protocol CoreDataListInput: AnyObject {
-    func getItems(items: [CoreDataModel]) 
 }
 
 
