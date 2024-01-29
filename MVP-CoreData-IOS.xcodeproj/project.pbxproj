@@ -14,13 +14,16 @@
 		1A060B482B5DA8EB00A96755 /* OnePageButtonBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A060B472B5DA8EB00A96755 /* OnePageButtonBuilder.swift */; };
 		1A060B4E2B5DAD1D00A96755 /* CoreDataListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A060B4D2B5DAD1D00A96755 /* CoreDataListViewController.swift */; };
 		1A060B502B5DAD3400A96755 /* OnePageButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A060B4F2B5DAD3400A96755 /* OnePageButtonViewController.swift */; };
+		1A499C872B62996C0074AD4B /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A499C842B62996C0074AD4B /* Category+CoreDataProperties.swift */; };
+		1A499C882B62996C0074AD4B /* Category+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A499C832B62996C0074AD4B /* Category+CoreDataClass.swift */; };
+		1A499C892B62996C0074AD4B /* ChuckNorris+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A499C862B62996C0074AD4B /* ChuckNorris+CoreDataProperties.swift */; };
+		1A499C8A2B62996C0074AD4B /* ChuckNorris+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A499C852B62996C0074AD4B /* ChuckNorris+CoreDataClass.swift */; };
 		1A67853A2B61141500DD81D5 /* CoreDataPageListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6785392B61141500DD81D5 /* CoreDataPageListPresenter.swift */; };
 		1A67853C2B61144D00DD81D5 /* CoreDataListIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A67853B2B61144D00DD81D5 /* CoreDataListIO.swift */; };
 		1A6785412B61146C00DD81D5 /* CoreDataListBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6785402B61146C00DD81D5 /* CoreDataListBuilder.swift */; };
 		1A6785432B61162200DD81D5 /* CoreDataListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6785422B61162200DD81D5 /* CoreDataListView.swift */; };
 		1A689FBE2B6120B100DCD056 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A689FBD2B6120B100DCD056 /* CoreDataStack.swift */; };
 		1A689FC02B61280400DCD056 /* CoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A689FBF2B61280400DCD056 /* CoreDataService.swift */; };
-		1A689FC22B61293100DCD056 /* CoreDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A689FC12B61293100DCD056 /* CoreDataModel.swift */; };
 		1A689FC42B61303E00DCD056 /* CoreDataListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A689FC32B61303E00DCD056 /* CoreDataListTableViewCell.swift */; };
 		1A9ACBB32B5EA47800D701D2 /* OnePagePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9ACBB22B5EA47800D701D2 /* OnePagePresenter.swift */; };
 		1A9ACBB52B5EA49200D701D2 /* OnePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9ACBB42B5EA49200D701D2 /* OnePageView.swift */; };
@@ -44,13 +47,16 @@
 		1A060B472B5DA8EB00A96755 /* OnePageButtonBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePageButtonBuilder.swift; sourceTree = "<group>"; };
 		1A060B4D2B5DAD1D00A96755 /* CoreDataListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataListViewController.swift; sourceTree = "<group>"; };
 		1A060B4F2B5DAD3400A96755 /* OnePageButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePageButtonViewController.swift; sourceTree = "<group>"; };
+		1A499C832B62996C0074AD4B /* Category+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Category+CoreDataClass.swift"; path = "/Users/egorivanov/Documents/SWIFT/MVP-CoreData-IOS/MVP-CoreData-IOS/CoreData/Category+CoreDataClass.swift"; sourceTree = "<absolute>"; };
+		1A499C842B62996C0074AD4B /* Category+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Category+CoreDataProperties.swift"; path = "/Users/egorivanov/Documents/SWIFT/MVP-CoreData-IOS/MVP-CoreData-IOS/CoreData/Category+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
+		1A499C852B62996C0074AD4B /* ChuckNorris+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ChuckNorris+CoreDataClass.swift"; path = "/Users/egorivanov/Documents/SWIFT/MVP-CoreData-IOS/MVP-CoreData-IOS/CoreData/ChuckNorris+CoreDataClass.swift"; sourceTree = "<absolute>"; };
+		1A499C862B62996C0074AD4B /* ChuckNorris+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ChuckNorris+CoreDataProperties.swift"; path = "/Users/egorivanov/Documents/SWIFT/MVP-CoreData-IOS/MVP-CoreData-IOS/CoreData/ChuckNorris+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
 		1A6785392B61141500DD81D5 /* CoreDataPageListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataPageListPresenter.swift; sourceTree = "<group>"; };
 		1A67853B2B61144D00DD81D5 /* CoreDataListIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataListIO.swift; sourceTree = "<group>"; };
 		1A6785402B61146C00DD81D5 /* CoreDataListBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataListBuilder.swift; sourceTree = "<group>"; };
 		1A6785422B61162200DD81D5 /* CoreDataListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataListView.swift; sourceTree = "<group>"; };
 		1A689FBD2B6120B100DCD056 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		1A689FBF2B61280400DCD056 /* CoreDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataService.swift; sourceTree = "<group>"; };
-		1A689FC12B61293100DCD056 /* CoreDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataModel.swift; sourceTree = "<group>"; };
 		1A689FC32B61303E00DCD056 /* CoreDataListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataListTableViewCell.swift; sourceTree = "<group>"; };
 		1A9ACBB22B5EA47800D701D2 /* OnePagePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePagePresenter.swift; sourceTree = "<group>"; };
 		1A9ACBB42B5EA49200D701D2 /* OnePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePageView.swift; sourceTree = "<group>"; };
@@ -245,9 +251,12 @@
 		1AEB9A4A2B5FE7F4008D343B /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				1A499C832B62996C0074AD4B /* Category+CoreDataClass.swift */,
+				1A499C842B62996C0074AD4B /* Category+CoreDataProperties.swift */,
+				1A499C852B62996C0074AD4B /* ChuckNorris+CoreDataClass.swift */,
+				1A499C862B62996C0074AD4B /* ChuckNorris+CoreDataProperties.swift */,
 				1AEB9A4B2B5FE80F008D343B /* Model.xcdatamodeld */,
 				1A689FBF2B61280400DCD056 /* CoreDataService.swift */,
-				1A689FC12B61293100DCD056 /* CoreDataModel.swift */,
 				1A689FBD2B6120B100DCD056 /* CoreDataStack.swift */,
 			);
 			path = CoreData;
@@ -391,18 +400,21 @@
 				1A060B502B5DAD3400A96755 /* OnePageButtonViewController.swift in Sources */,
 				1AF0B8AF2B5EB24300B32894 /* OnePageModel.swift in Sources */,
 				1A67853A2B61141500DD81D5 /* CoreDataPageListPresenter.swift in Sources */,
+				1A499C872B62996C0074AD4B /* Category+CoreDataProperties.swift in Sources */,
 				1A689FBE2B6120B100DCD056 /* CoreDataStack.swift in Sources */,
 				1A060B232B5DA4D100A96755 /* AppDelegate.swift in Sources */,
 				1A67853C2B61144D00DD81D5 /* CoreDataListIO.swift in Sources */,
 				1A9ACBB52B5EA49200D701D2 /* OnePageView.swift in Sources */,
 				1A689FC02B61280400DCD056 /* CoreDataService.swift in Sources */,
+				1A499C882B62996C0074AD4B /* Category+CoreDataClass.swift in Sources */,
 				1A6785432B61162200DD81D5 /* CoreDataListView.swift in Sources */,
 				1A689FC42B61303E00DCD056 /* CoreDataListTableViewCell.swift in Sources */,
 				1A9ACBB72B5EA57200D701D2 /* OnePageIO.swift in Sources */,
+				1A499C8A2B62996C0074AD4B /* ChuckNorris+CoreDataClass.swift in Sources */,
 				1A060B252B5DA4D100A96755 /* SceneDelegate.swift in Sources */,
 				1AF0B8AD2B5EB22700B32894 /* OnePageService.swift in Sources */,
 				1AEB9A4D2B5FE80F008D343B /* Model.xcdatamodeld in Sources */,
-				1A689FC22B61293100DCD056 /* CoreDataModel.swift in Sources */,
+				1A499C892B62996C0074AD4B /* ChuckNorris+CoreDataProperties.swift in Sources */,
 				1AF0B8AB2B5EB21000B32894 /* OnePageResponse .swift in Sources */,
 				1A6785412B61146C00DD81D5 /* CoreDataListBuilder.swift in Sources */,
 			);

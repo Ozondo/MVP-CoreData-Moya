@@ -12,7 +12,7 @@ import UIKit
 struct OnePageButtonBuilder {
     func build() -> UIViewController {
         
-        let presenter = OnePagePresenter(service: OnePageServiceImpl())
+        let presenter = OnePagePresenter(service: OnePageServiceImpl(), coreDataService: CoreDataServiceImpl())
         let view = OnePageButtonViewController(presenter: presenter)
         
         presenter.view = view

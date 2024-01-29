@@ -85,7 +85,8 @@ final class OnePageView: UIView{
 }
 
 extension OnePageView {
-    func updtaeText(textFromNetwork: String) {
-        chuckNorrisPhrase.text = textFromNetwork
+    func updateText(itemsFromNetwork: OnePageResponse) {
+        chuckNorrisPhrase.text = itemsFromNetwork.value
+        layoutIfNeeded()
     }
 }

@@ -49,8 +49,3 @@ final class CoreDataListTableViewCell: UITableViewCell {
     }
 }
 
-extension CoreDataListTableViewCell {
-    func updateCell(items: CoreDataModel) {
-        chuckNorrisPhrase.text = items.value
-    }
-}

@@ -2,7 +2,7 @@
 //  ChuckNorris+CoreDataClass.swift
 //  
 //
-//  Created by Егор Иванов on 23.01.2024.
+//  Created by Егор Иванов on 25.01.2024.
 //
 //
 

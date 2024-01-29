@@ -11,7 +11,7 @@ import Foundation
 protocol OnePageInput: AnyObject {
     func buttonDidTapped()
     
-    func getPhraseFromNetwork(text: String)
+    func getPhraseFromNetwork(items: OnePageResponse)
 }
 
 

@@ -11,7 +11,6 @@ import Foundation
 final class CoreDataPageListPresenter: CoreDataListOutput {
     
     weak var view: CoreDataListInput?
-    private var response: CoreDataModel?
     
     func viewDidLoad() {
 

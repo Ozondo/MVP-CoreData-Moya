@@ -36,10 +36,13 @@ final class OnePageButtonViewController: UIViewController, OnePageInput, OnePage
 
 extension OnePageButtonViewController {
     func buttonDidTapped() {
-        presenter.buttonDidTapped()
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+            self.presenter.buttonDidTapped()
+            //self.buttonDidTapped()
+        }
     }
     
-    func getPhraseFromNetwork(text: String) {
-        onePageView.updtaeText(textFromNetwork: text)
+    func getPhraseFromNetwork(items: OnePageResponse) {
+        onePageView.updateText(itemsFromNetwork: items)
     }
 }

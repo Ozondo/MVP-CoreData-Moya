@@ -11,9 +11,11 @@ final class OnePagePresenter: OnePageOutput {
     weak var view: OnePageInput?
     private let service: OnePageService
     private var response: OnePageResponse?
+    private let coreDataService: CoreDataService
     
-    init(service: OnePageService) {
+    init(service: OnePageService,coreDataService: CoreDataService) {
         self.service = service
+        self.coreDataService = coreDataService
     }
     
     func viewDidLoad() {
@@ -25,10 +27,12 @@ final class OnePagePresenter: OnePageOutput {
             case .success(let success):
                 self?.response = success
                 DispatchQueue.main.async {
-                    self?.view?.getPhraseFromNetwork(text: success.value)
+                    self?.view?.getPhraseFromNetwork(items: success)
                 }
+                self?.coreDataService.saveItems(items: success)
+                self?.coreDataService.getGrouppedItems()
             case .failure(_):
-                print("error")
+                let jome = self?.coreDataService.getRandomJoke()
             }
         })
     }

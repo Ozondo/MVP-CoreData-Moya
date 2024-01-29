@@ -22,8 +22,6 @@ final class CoreDataListView: UIView {
         return tableView
     }()
     
-    private var info : [CoreDataModel]? = []
-    
     //MARK: - init
     override init(frame: CGRect) {
         super.init(frame: .zero)
@@ -70,7 +68,7 @@ final class CoreDataListView: UIView {
 
 extension CoreDataListView: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return info?.count ?? 0
+        return 1
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

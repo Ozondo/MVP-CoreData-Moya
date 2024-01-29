@@ -15,6 +15,7 @@ struct OnePageResponse: Codable {
     var updatedAt: String
     var url: String
     var value: String
+    var categories: [String]
 
     enum CodingKeys: String, CodingKey {
         case createdAt = "created_at"
@@ -23,5 +24,6 @@ struct OnePageResponse: Codable {
         case updatedAt = "updated_at"
         case url
         case value
+        case categories
     }
 }
