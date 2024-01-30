@@ -45,7 +45,7 @@ final class CoreDataServiceImpl: CoreDataService {
     }
     
     func getChuckNorrisPhrase() -> [ChuckNorris] {
-        let context = CoreDataStack.shared.backgroundContext
+        let context = CoreDataStack.shared.viewContext
         
         let request = ChuckNorris.fetchRequest()
         

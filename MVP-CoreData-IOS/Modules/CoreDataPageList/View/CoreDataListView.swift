@@ -30,6 +30,7 @@ final class CoreDataListView: UIView {
         addSub()
         maskOff()
         setupTableView()
+        layoutConstaints()
     }
     
     required init?(coder: NSCoder) {
@@ -58,7 +59,7 @@ final class CoreDataListView: UIView {
         })
     }
     //MARK: - layout
-    override func layoutSubviews() {
+    func layoutConstaints() {
         NSLayoutConstraint.activate([
             coreDataListTableView.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor),
             coreDataListTableView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: Const.trailingConst),
