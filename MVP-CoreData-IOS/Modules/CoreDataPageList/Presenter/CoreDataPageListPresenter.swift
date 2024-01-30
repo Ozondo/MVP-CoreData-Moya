@@ -11,8 +11,14 @@ import Foundation
 final class CoreDataPageListPresenter: CoreDataListOutput {
     
     weak var view: CoreDataListInput?
+    private let coreDataService: CoreDataService
+    
+    init(coreDataService: CoreDataService) {
+        self.coreDataService = coreDataService
+    }
     
     func viewDidLoad() {
-
+        let items = coreDataService.getChuckNorrisPhrase()
+        view?.setItems(items: items)
     }
 }

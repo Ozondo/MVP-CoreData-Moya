@@ -17,6 +17,8 @@ final class CoreDataListView: UIView {
         static let trailingConst: CGFloat = -10
     }
     
+    private var items : [ChuckNorris] = []
+    
     private let coreDataListTableView: UITableView = {
         let tableView = UITableView(frame: CGRect.zero, style: .plain)
         return tableView
@@ -68,18 +70,29 @@ final class CoreDataListView: UIView {
 
 extension CoreDataListView: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
+        return items.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = coreDataListTableView.dequeueReusableCell(withIdentifier: "id", for: indexPath) as? CoreDataListTableViewCell else {return CoreDataListTableViewCell()}
         
         cell.layer.borderWidth = 1
+        let dataForCell = items[indexPath.item]
+        
+        cell.setItemsForCell(items: dataForCell)
         
         return cell 
     }
     
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 70
+    }
     
 }
 
-
+extension CoreDataListView {
+    func setItems(itemsFromNetwork: [ChuckNorris]) {
+        self.items = itemsFromNetwork
+        coreDataListTableView.reloadData()
+    }
+}

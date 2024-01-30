@@ -30,9 +30,8 @@ final class OnePagePresenter: OnePageOutput {
                     self?.view?.getPhraseFromNetwork(items: success)
                 }
                 self?.coreDataService.saveItems(items: success)
-                self?.coreDataService.getGrouppedItems()
             case .failure(_):
-                let jome = self?.coreDataService.getRandomJoke()
+                print("error")
             }
         })
     }

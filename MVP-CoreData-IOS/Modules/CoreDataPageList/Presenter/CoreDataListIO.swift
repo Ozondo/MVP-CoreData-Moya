@@ -9,6 +9,7 @@ import Foundation
 
 
 protocol CoreDataListInput: AnyObject {
+    func setItems(items: [ChuckNorris])
 }
 
 

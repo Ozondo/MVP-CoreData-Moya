@@ -32,5 +32,9 @@ final class CoreDataListViewController: UITabBarController, CoreDataListInput {
         view = coreDataListView
     }
     
+    func setItems(items: [ChuckNorris]) {
+        coreDataListView.setItems(itemsFromNetwork: items)
+    }
+    
     
 }

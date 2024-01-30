@@ -13,6 +13,7 @@ import CoreData
 protocol CoreDataService {
     func saveItems(items: OnePageResponse)
     func getGrouppedItems() -> [(Category, [ChuckNorris])]
+    func getChuckNorrisPhrase() -> [ChuckNorris]
 }
 
 //MARK: - CoreDataServiceImpl
@@ -41,6 +42,16 @@ final class CoreDataServiceImpl: CoreDataService {
             chuckNorrisJokeModel.addToCategories(category)
         }
         try? context.save()
+    }
+    
+    func getChuckNorrisPhrase() -> [ChuckNorris] {
+        let context = CoreDataStack.shared.backgroundContext
+        
+        let request = ChuckNorris.fetchRequest()
+        
+        guard let fetchResult = try? context.fetch(request)  else { return [] }
+        
+        return fetchResult
     }
     
     func getGrouppedItems() -> [(Category, [ChuckNorris])] {
