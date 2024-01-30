@@ -359,7 +359,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "C7C2C76C-4CCB-4058-B6D0-BDF2A5E18384"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVP-CoreData-IOS/Modules/CoreDataPageList/View/CoreDataListView.swift"
@@ -375,7 +375,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "69042478-E34B-43DE-99C4-9A4290557A9B"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVP-CoreData-IOS/Modules/CoreDataPageList/View/CoreDataListView.swift"
@@ -391,7 +391,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "397730EA-97E6-4D38-84AE-29A006F9CCE4"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MVP-CoreData-IOS/Modules/CoreDataPageList/View/CoreDataListViewController.swift"

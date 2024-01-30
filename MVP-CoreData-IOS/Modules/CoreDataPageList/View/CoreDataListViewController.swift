@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class CoreDataListViewController: UITabBarController, CoreDataListInput {
+final class CoreDataListViewController: UIViewController, CoreDataListInput {
     //MARK: - private properties 
     
     private let presenter: CoreDataListOutput
