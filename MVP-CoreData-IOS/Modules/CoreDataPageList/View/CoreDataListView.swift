@@ -78,6 +78,7 @@ extension CoreDataListView: UITableViewDelegate, UITableViewDataSource {
         guard let cell = coreDataListTableView.dequeueReusableCell(withIdentifier: "id", for: indexPath) as? CoreDataListTableViewCell else {return CoreDataListTableViewCell()}
         
         cell.layer.borderWidth = 1
+        cell.layer.cornerRadius = 20
         let dataForCell = items[indexPath.item]
         
         cell.setItemsForCell(items: dataForCell)
@@ -94,6 +95,9 @@ extension CoreDataListView: UITableViewDelegate, UITableViewDataSource {
 extension CoreDataListView {
     func setItems(itemsFromNetwork: [ChuckNorris]) {
         self.items = itemsFromNetwork
+        coreDataListTableView.reloadData()
+    }
+    func reload() {
         coreDataListTableView.reloadData()
     }
 }

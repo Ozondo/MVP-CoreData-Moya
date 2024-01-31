@@ -36,5 +36,8 @@ final class CoreDataListViewController: UIViewController, CoreDataListInput {
         coreDataListView.setItems(itemsFromNetwork: items)
     }
     
-    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+        coreDataListView.reload()
+    }
 }

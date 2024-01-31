@@ -15,4 +15,5 @@ protocol CoreDataListInput: AnyObject {
 
 protocol CoreDataListOutput {
     func viewDidLoad()
+    func viewWillAppear()
 }

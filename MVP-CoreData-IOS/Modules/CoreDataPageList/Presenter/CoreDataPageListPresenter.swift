@@ -9,7 +9,6 @@ import Foundation
 
 
 final class CoreDataPageListPresenter: CoreDataListOutput {
-    
     weak var view: CoreDataListInput?
     private let coreDataService: CoreDataService
     
@@ -20,5 +19,9 @@ final class CoreDataPageListPresenter: CoreDataListOutput {
     func viewDidLoad() {
         let items = coreDataService.getChuckNorrisPhrase()
         view?.setItems(items: items)
+    }
+    
+    func viewWillAppear() {
+        
     }
 }

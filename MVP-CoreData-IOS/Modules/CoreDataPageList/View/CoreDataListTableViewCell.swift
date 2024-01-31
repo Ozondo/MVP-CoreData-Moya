@@ -13,7 +13,7 @@ final class CoreDataListTableViewCell: UITableViewCell {
     //MARK: - private properties
     private let chuckNorrisPhrase: UILabel = {
         let text = UILabel()
-        text.text = "ChuckNorrisPhrase"
+        text.textAlignment = .center
         text.numberOfLines = 0
         text.textColor = .black
         return text
@@ -21,10 +21,10 @@ final class CoreDataListTableViewCell: UITableViewCell {
     
     private let createdDate: UILabel = {
         let text = UILabel()
-        text.text = "21.23.1233 23:23"
         text.textColor = .black
         return text
     }()
+    
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
@@ -39,7 +39,8 @@ final class CoreDataListTableViewCell: UITableViewCell {
     override func layoutSubviews() {
         NSLayoutConstraint.activate([
             chuckNorrisPhrase.centerXAnchor.constraint(equalTo: contentView.centerXAnchor),
-            chuckNorrisPhrase.leadingAnchor.constraint(equalTo: contentView.leadingAnchor),
+            chuckNorrisPhrase.leadingAnchor.constraint(equalTo: contentView.leadingAnchor,constant: 5),
+            chuckNorrisPhrase.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -5),
             
             createdDate.leadingAnchor.constraint(equalTo: contentView.leadingAnchor),
             createdDate.topAnchor.constraint(equalTo: chuckNorrisPhrase.bottomAnchor)
@@ -63,7 +64,12 @@ final class CoreDataListTableViewCell: UITableViewCell {
 
 extension CoreDataListTableViewCell {
     func setItemsForCell(items: ChuckNorris) {
+        
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss"
+        createdDate.text = dateFormatter.string(from: items.createdAt ?? Date()) 
         chuckNorrisPhrase.text = items.value
+        
     }
 }
 

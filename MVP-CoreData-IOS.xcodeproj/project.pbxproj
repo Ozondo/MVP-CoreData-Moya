@@ -172,7 +172,6 @@
 		1A060B4C2B5DAD0A00A96755 /* CoreDataPageList */ = {
 			isa = PBXGroup;
 			children = (
-				1A689FC52B613C2600DCD056 /* Service */,
 				1A6785382B6113BE00DD81D5 /* Builder */,
 				1A6785372B6113B800DD81D5 /* Presenter */,
 				1A6785352B61136900DD81D5 /* View */,
@@ -205,13 +204,6 @@
 				1A6785402B61146C00DD81D5 /* CoreDataListBuilder.swift */,
 			);
 			path = Builder;
-			sourceTree = "<group>";
-		};
-		1A689FC52B613C2600DCD056 /* Service */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Service;
 			sourceTree = "<group>";
 		};
 		1A9ACBB82B5EA5AF00D701D2 /* Service */ = {
