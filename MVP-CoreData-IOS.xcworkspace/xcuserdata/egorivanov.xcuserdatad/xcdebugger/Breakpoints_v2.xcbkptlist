@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "DC8DBE03-BAEC-4278-BA38-3E13E20E9011"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "46321CE7-B0DE-4163-9FDE-1C2342CE1EA4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVP-CoreData-IOS/Modules/OneButtonPage/Presenter/OnePagePresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "buttonDidTapped()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "46321CE7-B0DE-4163-9FDE-1C2342CE1EA4 - fce26cc7c25479d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;MVP_CoreData_IOS.OnePageResponse, Swift.Error&gt;) -&gt; () in MVP_CoreData_IOS.OnePagePresenter.buttonDidTapped() -&gt; ()"
+                  moduleName = "MVP-CoreData-IOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/egorivanov/Documents/SWIFT/MVP-CoreData-IOS/MVP-CoreData-IOS/Modules/OneButtonPage/Presenter/OnePagePresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "1048">
+               </Location>
+               <Location
+                  uuid = "46321CE7-B0DE-4163-9FDE-1C2342CE1EA4 - 4be23f842a840ae5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVP_CoreData_IOS.OnePagePresenter.buttonDidTapped() -&gt; ()"
+                  moduleName = "MVP-CoreData-IOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/egorivanov/Documents/SWIFT/MVP-CoreData-IOS/MVP-CoreData-IOS/Modules/OneButtonPage/Presenter/OnePagePresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "84">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5752BB59-35EF-4F04-B43E-1259D8D86660"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVP-CoreData-IOS/CoreData/CoreDataService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "getGrouppedItems()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5752BB59-35EF-4F04-B43E-1259D8D86660 - cacab02bc37066b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVP_CoreData_IOS.CoreDataServiceImpl.getGrouppedItems() -&gt; Swift.Array&lt;(MVP_CoreData_IOS.Category, Swift.Array&lt;MVP_CoreData_IOS.ChuckNorris&gt;)&gt;"
+                  moduleName = "MVP-CoreData-IOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/egorivanov/Documents/SWIFT/MVP-CoreData-IOS/MVP-CoreData-IOS/CoreData/CoreDataService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "5752BB59-35EF-4F04-B43E-1259D8D86660 - cacab02bc370588"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVP_CoreData_IOS.CoreDataServiceImpl.getGrouppedItems() -&gt; Swift.Array&lt;(MVP_CoreData_IOS.Category, Swift.Array&lt;MVP_CoreData_IOS.ChuckNorris&gt;)&gt;"
+                  moduleName = "MVP-CoreData-IOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/egorivanov/Documents/SWIFT/MVP-CoreData-IOS/MVP-CoreData-IOS/CoreData/CoreDataService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "5752BB59-35EF-4F04-B43E-1259D8D86660 - cacab02bc370588"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVP_CoreData_IOS.CoreDataServiceImpl.getGrouppedItems() -&gt; Swift.Array&lt;(MVP_CoreData_IOS.Category, Swift.Array&lt;MVP_CoreData_IOS.ChuckNorris&gt;)&gt;"
+                  moduleName = "MVP-CoreData-IOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/egorivanov/Documents/SWIFT/MVP-CoreData-IOS/MVP-CoreData-IOS/CoreData/CoreDataService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "104">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9C2EEDEB-7F97-450F-8228-8CD63CE069AC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVP-CoreData-IOS/CoreData/CoreDataService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "getGrouppedItems()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "02FBFDEC-3B9F-481D-BB68-D20DA6C5F95E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVP-CoreData-IOS/CoreData/CoreDataService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "getGrouppedItems()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "02FBFDEC-3B9F-481D-BB68-D20DA6C5F95E - cacab02bc370555"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVP_CoreData_IOS.CoreDataServiceImpl.getGrouppedItems() -&gt; Swift.Array&lt;(MVP_CoreData_IOS.Category, Swift.Array&lt;MVP_CoreData_IOS.ChuckNorris&gt;)&gt;"
+                  moduleName = "MVP-CoreData-IOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/egorivanov/Documents/SWIFT/MVP-CoreData-IOS/MVP-CoreData-IOS/CoreData/CoreDataService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "440">
+               </Location>
+               <Location
+                  uuid = "02FBFDEC-3B9F-481D-BB68-D20DA6C5F95E - cacab02bc370534"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVP_CoreData_IOS.CoreDataServiceImpl.getGrouppedItems() -&gt; Swift.Array&lt;(MVP_CoreData_IOS.Category, Swift.Array&lt;MVP_CoreData_IOS.ChuckNorris&gt;)&gt;"
+                  moduleName = "MVP-CoreData-IOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/egorivanov/Documents/SWIFT/MVP-CoreData-IOS/MVP-CoreData-IOS/CoreData/CoreDataService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "324">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5F2366EC-394F-44CD-987E-C59FE5C55DA7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVP-CoreData-IOS/CoreData/CoreDataService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "saveItems(items:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5F2366EC-394F-44CD-987E-C59FE5C55DA7 - e2ee1b577d20a522"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVP_CoreData_IOS.CoreDataServiceImpl.saveItems(items: MVP_CoreData_IOS.OnePageResponse) -&gt; ()"
+                  moduleName = "MVP-CoreData-IOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/egorivanov/Documents/SWIFT/MVP-CoreData-IOS/MVP-CoreData-IOS/CoreData/CoreDataService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "2320">
+               </Location>
+               <Location
+                  uuid = "5F2366EC-394F-44CD-987E-C59FE5C55DA7 - e2ee1b577d20a522"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVP_CoreData_IOS.CoreDataServiceImpl.saveItems(items: MVP_CoreData_IOS.OnePageResponse) -&gt; ()"
+                  moduleName = "MVP-CoreData-IOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/egorivanov/Documents/SWIFT/MVP-CoreData-IOS/MVP-CoreData-IOS/CoreData/CoreDataService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "2316">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EFC52EE1-9EC9-48B1-B6C8-3BC26E63A86D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVP-CoreData-IOS/CoreData/CoreDataService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "getGrouppedItems()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "94B51D4E-41DD-46EB-9E0E-0052078D7B73"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVP-CoreData-IOS/CoreData/CoreDataService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "getGrouppedItems()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5253B091-8C43-42D9-BA77-C8E79F8F9287"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVP-CoreData-IOS/Modules/CoreDataPageList/Presenter/CoreDataPageListPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5253B091-8C43-42D9-BA77-C8E79F8F9287 - d3bb90a52f936a7e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVP_CoreData_IOS.CoreDataPageListPresenter.viewDidLoad() -&gt; ()"
+                  moduleName = "MVP-CoreData-IOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/egorivanov/Documents/SWIFT/MVP-CoreData-IOS/MVP-CoreData-IOS/Modules/CoreDataPageList/Presenter/CoreDataPageListPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  uuid = "5253B091-8C43-42D9-BA77-C8E79F8F9287 - d3bb90a52f936a7e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVP_CoreData_IOS.CoreDataPageListPresenter.viewDidLoad() -&gt; ()"
+                  moduleName = "MVP-CoreData-IOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/egorivanov/Documents/SWIFT/MVP-CoreData-IOS/MVP-CoreData-IOS/Modules/CoreDataPageList/Presenter/CoreDataPageListPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "120">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "396E1379-B761-43AD-B6E3-0D27DA73C972"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVP-CoreData-IOS/CoreData/CoreDataService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "getChuckNorrisPhrase()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "396E1379-B761-43AD-B6E3-0D27DA73C972 - 696b84aa7c854d52"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVP_CoreData_IOS.CoreDataServiceImpl.getChuckNorrisPhrase() -&gt; Swift.Array&lt;MVP_CoreData_IOS.ChuckNorris&gt;"
+                  moduleName = "MVP-CoreData-IOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/egorivanov/Documents/SWIFT/MVP-CoreData-IOS/MVP-CoreData-IOS/CoreData/CoreDataService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "396E1379-B761-43AD-B6E3-0D27DA73C972 - 696b84aa7c854d52"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVP_CoreData_IOS.CoreDataServiceImpl.getChuckNorrisPhrase() -&gt; Swift.Array&lt;MVP_CoreData_IOS.ChuckNorris&gt;"
+                  moduleName = "MVP-CoreData-IOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/egorivanov/Documents/SWIFT/MVP-CoreData-IOS/MVP-CoreData-IOS/CoreData/CoreDataService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "144">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C7C2C76C-4CCB-4058-B6D0-BDF2A5E18384"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVP-CoreData-IOS/Modules/CoreDataPageList/View/CoreDataListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "69042478-E34B-43DE-99C4-9A4290557A9B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVP-CoreData-IOS/Modules/CoreDataPageList/View/CoreDataListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "397730EA-97E6-4D38-84AE-29A006F9CCE4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVP-CoreData-IOS/Modules/CoreDataPageList/View/CoreDataListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "setItems(items:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

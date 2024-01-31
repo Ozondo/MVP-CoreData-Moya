@@ -1,0 +1,6 @@
+framework module Pods_MVP_CoreData_IOS {
+  umbrella header "Pods-MVP-CoreData-IOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
